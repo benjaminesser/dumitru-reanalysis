@@ -1,2 +1,8 @@
-# dumitru-reanalysis
-This repository will contain the renanalysis of data from Dumitru et al. 2025 which contributed to the article "A Policy Roadmap Toward Therapeutic Neurogenesis". It is currently under construction.
+This repository contains renanalysis of data from [Dumitru et al. 2025](https://www.science.org/doi/10.1126/science.adu9575).
+
+The raw donor-level snRNA-seq data from Dumitru et al. are available [here](https://doi.org/10.5281/zenodo.14879680).
+
+How to recreate the environment:
+conda env create -f environment.yml
+conda activate dumitru-reanalysis
+jupyter lab

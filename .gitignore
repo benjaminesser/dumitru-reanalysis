@@ -1,0 +1,23 @@
+# Local system files
+.DS_Store
+
+# Old notebooks
+old notebooks/**
+
+# Large external datasets
+data/dumitru/**
+data/franjic/**
+data/liu/**
+data/wang/**
+!data/dumitru/
+!data/franjic/
+!data/liu/
+!data/wang/
+!data/dumitru/**/
+!data/franjic/**/
+!data/liu/**/
+!data/wang/**/
+!data/dumitru/**/.gitkeep
+!data/franjic/**/.gitkeep
+!data/liu/**/.gitkeep
+!data/wang/**/.gitkeep
